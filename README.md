@@ -2,14 +2,9 @@
 
 # Xylophone
 
-## Our Goal
+## Goal Of The Project
 
-The goal of this tutorial is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation. The most important skill of a great programmer is being able to solve your own problems. We’ll do that by exploring StackOverflow, Apple Documentation and learning how to search for solutions effectively. By learning to use these tools, you’ll be able to start adding custom features to an app and get it to do what you want it to.
-
-
-## What you will create
-
-You will be making your first musical instrument! Music apps are so popular on the App Store that they even get their own category. So in this module, we’re going to make a colourful XyloPhone app. Get it? Ok, the jokes are bad, but remember, I only wrote the good ones... 
+The goal of this project is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation.
 
 ## What you will learn
 
@@ -24,36 +19,14 @@ You will be making your first musical instrument! Music apps are so popular on t
 * Code refactoring.
 * Basic debugging.
 
-## Replacement Code
+## 🚀 About Me
+I'm a mobile application developer working mainly in Flutter, Swift and SwiftUI. I work mainly to enhance my technical skill as well as gain managerial skills by acquiring a job in a reputable, growth-oriented organization, which provides constant personal development. A dedicated and passionate Mobile Application Developer focusing predominantly on Front end designs, but always able and willing to adapt to and learn new languages and databases.
 
-```
-import UIKit
-import AVFoundation
+## Authors
 
-class ViewController: UIViewController {
-    
-    var player: AVAudioPlayer!
+- [@abdullahihsan3](https://www.github.com/abdullahihsan3)
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+## 🛠 Skills
+Flutter, Swift, SwiftUI, Java, Figma
 
-    @IBAction func keyPressed(_ sender: UIButton) {
-        playSound()
-    }
-    
-    func playSound() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-                
-    }
-}
-```
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
+[![My Skills](https://skills.thijs.gg/icons?i=flutter,dart,swift,java,mongodb)](https://skills.thijs.gg)

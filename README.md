@@ -1,10 +1,13 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Xylophone
 
 ## Goal Of The Project
 
 The goal of this project is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation.
+
+##  Screenshots
+<p align="center">
+<img src="https://user-images.githubusercontent.com/109294768/251240453-931248e4-7e91-45a9-97b7-81ba240fd2bd.png" width="200" height="400" />
+</p>
 
 ## What you will learn
 
